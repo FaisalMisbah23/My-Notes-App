@@ -96,9 +96,9 @@ export default async function DashboardPage() {
             </Button>
           ) : (
             <Button asChild>
-              {/* in case of add subscription method */}
-              {/* <Link href="/dashboard/billing">Create a new Note</Link> */}
               <Link href="/dashboard/new">Create a new Note</Link>
+              {/* if you wan to add billing */}
+              {/* <Link href="/dashboard/billing">Create a new Note</Link> */}
             </Button>
           )}
         </div>
